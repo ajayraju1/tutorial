@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Sevillana&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Mountains+of+Christmas&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.new-year-bg-con {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 80%;
+    background-color: #00000070;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14) !important;
+
+
+}
+
+.code-crafters-logo {
+    border-radius: 50pc;
+    height: 125px;
+    margin-right: -170px;
+    z-index: -10;
+}
+
+
+
+.typed-text {
+    height: 60px;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-family: 'Nabla';
+    text-align: center;
+}
+
+.profile-card-con {
+    height: 200px;
+    background: #ffffff50;
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border-radius: 30px;
+    padding: 20px 10px;
+    padding-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: outset 2px #fff;
+}
+
+.img-msg-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.user-img {
+    align-self: flex-start;
+    border-radius: 5px;
+    height: 150px;
+    width: 6rem;
+    border: 2px solid #000;
+    object-fit: cover;
+    padding: 5px;
+
+}
+
+.personl-msg-con{
+    width: 250px;
+}
+
+.personl-msg{
+    align-self: flex-start;
+    text-align: center;
+}
+
+.new-year-msg-bg-con2 {
+    
+    background-image: url('https://www.cyberlink.com/prog/learning-center/html/9040/PDR19-YouTube-483_Ideas_New_Years_Gif_App/img/fireworks.webp');
+    background-size: 100% 100%;
+
+}
+
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Mountains of Christmas', serif;
+}
+
+.down-text {
+    text-align: end;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Sevillana', cursive;
+}
+
+.heart {
+    font-size: 20px;
+    animation: animate 1.5s linear infinite;
+}
+
+
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.display-none{
+    display: none;
+}
+
